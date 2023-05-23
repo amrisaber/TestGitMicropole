@@ -6,7 +6,7 @@ from models.svm_reg import svm
 from models.split_data import look_splits
 
 def main():
-    """_summary_
+    """1- First update cagnotte
     """
     url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
     names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
