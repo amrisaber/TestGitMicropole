@@ -12,6 +12,7 @@ def main():
     names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
     dataS = read(url,names)
     models = [('Reg',regression_log()), ('Cart',tree()), ('SVM',svm())]
+    print("this my first update")
     return(evaluate(models,url,names))
 
     
