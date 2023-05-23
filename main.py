@@ -6,12 +6,13 @@ from models.svm_reg import svm
 from models.split_data import look_splits
 
 def main():
-    """_summary_
+    """1- First update cagnotte
     """
     url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
     names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
     dataS = read(url,names)
     models = [('Reg',regression_log()), ('Cart',tree()), ('SVM',svm())]
+    print("this my first update")
     return(evaluate(models,url,names))
 
     
