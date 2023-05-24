@@ -1,0 +1,3 @@
+Maintenant, admettons que vous ayez réalisé vos modifications et qu'en plus vous ayez fait le commit.
+Le cas est plus complexe, puisque vous avez enregistré vos modifications sur la branche principale, 
+alors que vous ne deviez pas.
